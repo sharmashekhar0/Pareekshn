@@ -11,6 +11,7 @@ import AddCandidate from "./AddCandidate";
 import AddAssessor from "./AddAssessor";
 import AddQuestionBank from "./AddQuestionBank";
 import AddExam from "./AddExam";
+import { Outlet } from "react-router";
 
 function AllEntries() {
 	return (
@@ -31,6 +32,7 @@ function AllEntries() {
 					</div>
 				</div>
 			</div>
+			<Outlet />
 			{/* <AddSector /> */}
 			{/* <AddQualificationPack /> */}
 			{/* <AddNosPack />	 */}
@@ -38,7 +40,7 @@ function AllEntries() {
 			{/* <AddCandidate /> */}
 			{/* <AddAssessor /> */}
 			{/* <AddQuestionBank /> */}
-			<AddExam />
+			{/* <AddExam /> */}
 			<div className="bg-[#F3F7FF] p-4  w-full min-h-screen flex flex-col gap-6">
 				<span className="text-[#1C4481] font-medium">All Entries</span>
 				<div className="shadow-allBorder rounded-t-3xl">

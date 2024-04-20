@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 function Screens() {
 	return (
-		<div className="flex flex-col gap-8">
-			<div className="h-20 p-8 flex gap-8">
+		<div className="flex flex-col gap-4">
+			<div className="h-20 p-8 flex gap-4">
 				<div className="bg-[#1C4481] w-36 h-10 rounded-full flex justify-center items-center text-white text-sm font-medium">
 					<Link target="_blank" to={"/candidate-page/verify-profile"}>
 						<span>Screen 1</span>
@@ -49,7 +49,7 @@ function Screens() {
 					</Link>
 				</div>
 			</div>
-			<div className="h-20 p-8 flex gap-8">
+			<div className="h-20 p-8 flex gap-4">
 				<div className="bg-[#1C4481] w-36 h-10 rounded-full flex justify-center items-center text-white text-sm font-medium">
 					<Link target="_blank" to={"/dashboard/exam-fee-details"}>
 						<span>Exam Fee</span>
@@ -122,7 +122,7 @@ function Screens() {
 					</Link>
 				</div>
 			</div>
-			<div className="h-20 p-8 flex gap-8">
+			<div className="h-20 p-8 flex gap-4">
 				<div className="bg-[#1C4481] w-36 h-10 rounded-full flex justify-center items-center text-white text-sm font-medium">
 					<Link target="_blank" to={"/login-screen"}>
 						<span>Login Screen</span>
@@ -173,7 +173,7 @@ function Screens() {
 					</Link>
 				</div>
 			</div>
-			<div className="h-20 p-8 flex gap-8">
+			<div className="h-20 p-8 flex gap-4">
 				<div className="bg-[#1C4481] w-36 h-10 rounded-full flex justify-center items-center text-white text-sm font-medium">
 					<Link target="_blank" to={"/dashboard/user-profile/resume"}>
 						<span>Resume</span>
@@ -221,7 +221,7 @@ function Screens() {
 					</Link>
 				</div>
 			</div>
-			<div className="h-20 p-8 flex gap-8">
+			<div className="h-20 p-8 flex gap-4">
 				<div className="bg-[#1C4481] w-44 h-10 rounded-full flex justify-center items-center text-white text-sm font-medium">
 					<Link target="_blank" to={"/corporate-profile"}>
 						<span>Corporate Profile</span>
@@ -250,6 +250,57 @@ function Screens() {
 				<div className="bg-[#1C4481] w-32 h-10 rounded-full flex justify-center items-center text-white text-sm font-medium">
 					<Link target="_blank" to={"/feedback"}>
 						<span>Feedback</span>
+					</Link>
+				</div>
+				<div className="bg-[#1C4481] w-32 h-10 rounded-full flex justify-center items-center text-white text-sm font-medium">
+					<Link target="_blank" to={"/all-entries-page/add-sector"}>
+						<span>Add Sector</span>
+					</Link>
+				</div>
+			</div>
+			<div className="h-20 p-8 flex gap-4">
+				<div className="bg-[#1C4481] w-44 h-10 rounded-full flex justify-center items-center text-white text-sm font-medium">
+					<Link
+						target="_blank"
+						to={"/all-entries-page/add-qualification-pack"}
+					>
+						<span>Add Qualification pack</span>
+					</Link>
+				</div>
+				<div className="bg-[#1C4481] w-32 h-10 rounded-full flex justify-center items-center text-white text-sm font-medium">
+					<Link target="_blank" to={"/all-entries-page/add-nos-pack"}>
+						<span>Add nos pack</span>
+					</Link>
+				</div>
+				<div className="bg-[#1C4481] w-32 h-10 rounded-full flex justify-center items-center text-white text-sm font-medium">
+					<Link target="_blank" to={"/all-entries-page/add-group"}>
+						<span>Add Group</span>
+					</Link>
+				</div>
+				<div className="bg-[#1C4481] w-32 h-10 rounded-full flex justify-center items-center text-white text-sm font-medium">
+					<Link
+						target="_blank"
+						to={"/all-entries-page/add-candidate"}
+					>
+						<span>Add Candidate</span>
+					</Link>
+				</div>
+				<div className="bg-[#1C4481] w-32 h-10 rounded-full flex justify-center items-center text-white text-sm font-medium">
+					<Link target="_blank" to={"/all-entries-page/add-assessor"}>
+						<span>Add Assessor</span>
+					</Link>
+				</div>
+				<div className="bg-[#1C4481] w-44 h-10 rounded-full flex justify-center items-center text-white text-sm font-medium">
+					<Link
+						target="_blank"
+						to={"/all-entries-page/add-question-bank"}
+					>
+						<span>Add Question Bank</span>
+					</Link>
+				</div>
+				<div className="bg-[#1C4481] w-32 h-10 rounded-full flex justify-center items-center text-white text-sm font-medium">
+					<Link target="_blank" to={"/all-entries-page/add-exam"}>
+						<span>Add Exam</span>
 					</Link>
 				</div>
 			</div>

@@ -53,6 +53,14 @@ import VivaByAssessor from "./pages/Assessor/VivaByAssessor.jsx";
 import QuestionStatus from "./pages/Assessor/QuestionStatus.jsx";
 import Feedback from "./pages/Assessor/Feedback.jsx";
 import AllEntriesPage from "./pages/AdminPanel/AllEntriesPage.jsx";
+import AddSector from "./components/AdminPanel/AddSector.jsx";
+import AddQualificationPack from "./components/AdminPanel/AddQualificationPack.jsx";
+import AddNosPack from "./components/AdminPanel/AddNosPack.jsx";
+import AddGroup from "./components/AdminPanel/AddGroup.jsx";
+import AddCandidate from "./components/AdminPanel/AddCandidate.jsx";
+import AddAssessor from "./components/AdminPanel/AddAssessor.jsx";
+import AddQuestionBank from "./components/AdminPanel/AddQuestionBank.jsx";
+import AddExam from "./components/AdminPanel/AddExam.jsx";
 
 const router = createBrowserRouter(
 	createRoutesFromElements(
@@ -206,6 +214,40 @@ const router = createBrowserRouter(
 			<Route path="/viva-assessor" element={<VivaByAssessor />} />
 			<Route path="/question-status" element={<QuestionStatus />} />
 			<Route path="/feedback" element={<Feedback />} />
+			<Route path="/all-entries-page" element={<AllEntriesPage />}>
+				<Route
+					path="/all-entries-page/add-sector"
+					element={<AddSector />}
+				></Route>
+				<Route
+					path="/all-entries-page/add-qualification-pack"
+					element={<AddQualificationPack />}
+				></Route>
+				<Route
+					path="/all-entries-page/add-nos-pack"
+					element={<AddNosPack />}
+				></Route>
+				<Route
+					path="/all-entries-page/add-group"
+					element={<AddGroup />}
+				></Route>
+				<Route
+					path="/all-entries-page/add-candidate"
+					element={<AddCandidate />}
+				></Route>
+				<Route
+					path="/all-entries-page/add-assessor"
+					element={<AddAssessor />}
+				></Route>
+				<Route
+					path="/all-entries-page/add-question-bank"
+					element={<AddQuestionBank />}
+				></Route>
+				<Route
+					path="/all-entries-page/add-exam"
+					element={<AddExam />}
+				></Route>
+			</Route>
 		</Route>
 	)
 );
