@@ -61,6 +61,15 @@ import AddCandidate from "./components/AdminPanel/AddCandidate.jsx";
 import AddAssessor from "./components/AdminPanel/AddAssessor.jsx";
 import AddQuestionBank from "./components/AdminPanel/AddQuestionBank.jsx";
 import AddExam from "./components/AdminPanel/AddExam.jsx";
+import AddTrainingPartner from "./components/AdminPanel/AddTrainingPartner.jsx";
+import AddTrainingCenter from "./components/AdminPanel/AddTrainingCenter.jsx";
+import AddSchemeList from "./components/AdminPanel/AddSchemeList.jsx";
+import AddSchemeName from "./components/AdminPanel/AddSchemeName.jsx";
+import AddSubAdmin from "./components/AdminPanel/AddSubAdmin.jsx";
+import AddBackOfficeSubAdmin from "./components/AdminPanel/AddBackOfficeSubAdmin.jsx";
+import AddFeedback from "./components/AdminPanel/AddFeedback.jsx";
+import PlanAndDetails from "./components/AdminPanel/PlanAndDetails.jsx";
+import AddSubScheme from "./components/AdminPanel/AddSubScheme.jsx";
 
 const router = createBrowserRouter(
 	createRoutesFromElements(
@@ -246,6 +255,42 @@ const router = createBrowserRouter(
 				<Route
 					path="/all-entries-page/add-exam"
 					element={<AddExam />}
+				></Route>
+				<Route
+					path="/all-entries-page/add-training-partner"
+					element={<AddTrainingPartner />}
+				></Route>
+				<Route
+					path="/all-entries-page/add-training-center"
+					element={<AddTrainingCenter />}
+				></Route>
+				<Route
+					path="/all-entries-page/add-scheme-list"
+					element={<AddSchemeList />}
+				></Route>
+				<Route
+					path="/all-entries-page/add-scheme-name"
+					element={<AddSchemeName />}
+				></Route>
+				<Route
+					path="/all-entries-page/add-sub-scheme"
+					element={<AddSubScheme />}
+				></Route>
+				<Route
+					path="/all-entries-page/add-sub-admin"
+					element={<AddSubAdmin />}
+				></Route>
+				<Route
+					path="/all-entries-page/add-back-office-subadmin"
+					element={<AddBackOfficeSubAdmin />}
+				></Route>
+				<Route
+					path="/all-entries-page/add-feedback"
+					element={<AddFeedback />}
+				></Route>
+				<Route
+					path="/all-entries-page/plan-details"
+					element={<PlanAndDetails />}
 				></Route>
 			</Route>
 		</Route>

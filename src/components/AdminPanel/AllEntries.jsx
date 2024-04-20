@@ -12,6 +12,15 @@ import AddAssessor from "./AddAssessor";
 import AddQuestionBank from "./AddQuestionBank";
 import AddExam from "./AddExam";
 import { Outlet } from "react-router";
+import AddTrainingPartner from "./AddTrainingPartner";
+import AddTrainingCenter from "./AddTrainingCenter";
+import AddSchemeList from "./AddSchemeList";
+import AddSchemeName from "./AddSchemeName";
+import AddSubScheme from "./AddSubScheme";
+import AddSubAdmin from "./AddSubAdmin";
+import AddBackOfficeSubAdmin from "./AddBackOfficeSubAdmin";
+import AddFeedback from "./AddFeedback";
+import PlanAndDetails from "./PlanAndDetails";
 
 function AllEntries() {
 	return (
@@ -41,6 +50,16 @@ function AllEntries() {
 			{/* <AddAssessor /> */}
 			{/* <AddQuestionBank /> */}
 			{/* <AddExam /> */}
+			{/* <AddTrainingPartner /> */}
+			{/* <AddTrainingCenter /> */}
+			{/* <AddSchemeList /> */}
+			{/* <AddSchemeName /> */}
+			{/* <AddSubScheme /> */}
+			{/* <AddSubAdmin /> */}
+			{/* <AddBackOfficeSubAdmin /> */}
+			{/* <AddFeedback /> */}
+			{/* <PlanAndDetails /> */}
+
 			<div className="bg-[#F3F7FF] p-4  w-full min-h-screen flex flex-col gap-6">
 				<span className="text-[#1C4481] font-medium">All Entries</span>
 				<div className="shadow-allBorder rounded-t-3xl">

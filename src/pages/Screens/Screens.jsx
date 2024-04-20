@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 function Screens() {
 	return (
-		<div className="flex flex-col gap-4">
-			<div className="h-20 p-8 flex gap-4">
+		<div className="flex flex-col">
+			<div className="h-20 p-8 flex gap-2">
 				<div className="bg-[#1C4481] w-36 h-10 rounded-full flex justify-center items-center text-white text-sm font-medium">
 					<Link target="_blank" to={"/candidate-page/verify-profile"}>
 						<span>Screen 1</span>
@@ -49,7 +49,7 @@ function Screens() {
 					</Link>
 				</div>
 			</div>
-			<div className="h-20 p-8 flex gap-4">
+			<div className="h-20 p-8 flex gap-2">
 				<div className="bg-[#1C4481] w-36 h-10 rounded-full flex justify-center items-center text-white text-sm font-medium">
 					<Link target="_blank" to={"/dashboard/exam-fee-details"}>
 						<span>Exam Fee</span>
@@ -122,7 +122,7 @@ function Screens() {
 					</Link>
 				</div>
 			</div>
-			<div className="h-20 p-8 flex gap-4">
+			<div className="h-20 p-8 flex gap-2">
 				<div className="bg-[#1C4481] w-36 h-10 rounded-full flex justify-center items-center text-white text-sm font-medium">
 					<Link target="_blank" to={"/login-screen"}>
 						<span>Login Screen</span>
@@ -173,7 +173,7 @@ function Screens() {
 					</Link>
 				</div>
 			</div>
-			<div className="h-20 p-8 flex gap-4">
+			<div className="h-20 p-8 flex gap-2">
 				<div className="bg-[#1C4481] w-36 h-10 rounded-full flex justify-center items-center text-white text-sm font-medium">
 					<Link target="_blank" to={"/dashboard/user-profile/resume"}>
 						<span>Resume</span>
@@ -221,7 +221,7 @@ function Screens() {
 					</Link>
 				</div>
 			</div>
-			<div className="h-20 p-8 flex gap-4">
+			<div className="h-20 p-8 flex gap-2">
 				<div className="bg-[#1C4481] w-44 h-10 rounded-full flex justify-center items-center text-white text-sm font-medium">
 					<Link target="_blank" to={"/corporate-profile"}>
 						<span>Corporate Profile</span>
@@ -258,7 +258,7 @@ function Screens() {
 					</Link>
 				</div>
 			</div>
-			<div className="h-20 p-8 flex gap-4">
+			<div className="h-20 p-8 flex gap-2">
 				<div className="bg-[#1C4481] w-44 h-10 rounded-full flex justify-center items-center text-white text-sm font-medium">
 					<Link
 						target="_blank"
@@ -301,6 +301,74 @@ function Screens() {
 				<div className="bg-[#1C4481] w-32 h-10 rounded-full flex justify-center items-center text-white text-sm font-medium">
 					<Link target="_blank" to={"/all-entries-page/add-exam"}>
 						<span>Add Exam</span>
+					</Link>
+				</div>
+			</div>
+			<div className="h-20 p-8 flex gap-2">
+				<div className="bg-[#1C4481] w-36 h-10 rounded-full flex justify-center items-center text-white text-sm font-medium">
+					<Link
+						target="_blank"
+						to={"/all-entries-page/add-training-partner"}
+					>
+						<span>Training Partner</span>
+					</Link>
+				</div>
+				<div className="bg-[#1C4481] w-36 h-10 rounded-full flex justify-center items-center text-white text-sm font-medium">
+					<Link
+						target="_blank"
+						to={"/all-entries-page/add-training-center"}
+					>
+						<span>Training Center</span>
+					</Link>
+				</div>
+				<div className="bg-[#1C4481] w-36 h-10 rounded-full flex justify-center items-center text-white text-sm font-medium">
+					<Link
+						target="_blank"
+						to={"/all-entries-page/add-scheme-list"}
+					>
+						<span>Scheme List</span>
+					</Link>
+				</div>
+				<div className="bg-[#1C4481] w-36 h-10 rounded-full flex justify-center items-center text-white text-sm font-medium">
+					<Link
+						target="_blank"
+						to={"/all-entries-page/add-scheme-name"}
+					>
+						<span>Scheme Name</span>
+					</Link>
+				</div>
+				<div className="bg-[#1C4481] w-36 h-10 rounded-full flex justify-center items-center text-white text-sm font-medium">
+					<Link
+						target="_blank"
+						to={"/all-entries-page/add-sub-scheme"}
+					>
+						<span>Sub Scheme</span>
+					</Link>
+				</div>
+				<div className="bg-[#1C4481] w-36 h-10 rounded-full flex justify-center items-center text-white text-sm font-medium">
+					<Link
+						target="_blank"
+						to={"/all-entries-page/add-sub-admin"}
+					>
+						<span>Sub Admin</span>
+					</Link>
+				</div>
+				<div className="bg-[#1C4481] w-36 h-10 rounded-full flex justify-center items-center text-white text-sm font-medium">
+					<Link
+						target="_blank"
+						to={"/all-entries-page/add-back-office-subadmin"}
+					>
+						<span>Back Office</span>
+					</Link>
+				</div>
+				<div className="bg-[#1C4481] w-36 h-10 rounded-full flex justify-center items-center text-white text-sm font-medium">
+					<Link target="_blank" to={"/all-entries-page/add-feedback"}>
+						<span>Feedback</span>
+					</Link>
+				</div>
+				<div className="bg-[#1C4481] w-36 h-10 rounded-full flex justify-center items-center text-white text-sm font-medium">
+					<Link target="_blank" to={"/all-entries-page/plan-details"}>
+						<span>Plan Details</span>
 					</Link>
 				</div>
 			</div>
