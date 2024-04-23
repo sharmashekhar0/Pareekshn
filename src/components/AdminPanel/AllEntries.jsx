@@ -21,6 +21,7 @@ import AddSubAdmin from "./AddSubAdmin";
 import AddBackOfficeSubAdmin from "./AddBackOfficeSubAdmin";
 import AddFeedback from "./AddFeedback";
 import PlanAndDetails from "./PlanAndDetails";
+import AdminDashboard from "./AdminDashboard";
 
 function AllEntries() {
 	return (
@@ -41,7 +42,7 @@ function AllEntries() {
 					</div>
 				</div>
 			</div>
-			<Outlet />
+			{/* <Outlet /> */}
 			{/* <AddSector /> */}
 			{/* <AddQualificationPack /> */}
 			{/* <AddNosPack />	 */}
@@ -59,6 +60,7 @@ function AllEntries() {
 			{/* <AddBackOfficeSubAdmin /> */}
 			{/* <AddFeedback /> */}
 			{/* <PlanAndDetails /> */}
+			<AdminDashboard />
 
 			<div className="bg-[#F3F7FF] p-4  w-full min-h-screen flex flex-col gap-6">
 				<span className="text-[#1C4481] font-medium">All Entries</span>

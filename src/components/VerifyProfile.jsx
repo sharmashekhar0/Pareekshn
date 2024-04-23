@@ -13,7 +13,7 @@ import { FaAngleDown } from "react-icons/fa6";
 
 function VerifyProfile() {
 	return (
-		<div className="w-1/4 bg-white rounded-3xl right-64 absolute border h-fit px-4 py-2 ">
+		<div className="w-1/4 bg-white rounded-3xl right-64 absolute border h-[460px] overflow-y-scroll no-scrollbar px-4 py-2 ">
 			<div className="flex justify-between items-center">
 				<img
 					src={arrowLeft}
@@ -94,6 +94,42 @@ function VerifyProfile() {
 						placeholder="654123658987"
 					/>
 					<span className="px-7"></span>
+				</div>
+				<div className="border border-black rounded-md px-2 py-1">
+					<div className="flex  items-center gap-2 text-[#1C4481]">
+						<img src={user} alt="" className="h-4 w-5" />
+						<span>Qualification</span>
+					</div>
+					<input
+						className="outline-none px-7 placeholder:text-black"
+						placeholder="Graduation"
+					/>
+					<span className="px-7"></span>
+				</div>
+				<div className="border border-black rounded-md px-2 py-1">
+					<div className="flex  items-center gap-2 text-[#1C4481]">
+						<img src={user} alt="" className="h-4 w-5" />
+						<span>State</span>
+					</div>
+					<input
+						className="outline-none px-7 placeholder:text-black"
+						placeholder="Gujrat"
+					/>
+					<span className="px-7"></span>
+				</div>
+				<div className="border border-black rounded-md px-2 py-1">
+					<div className="flex  items-center gap-2 text-[#1C4481]">
+						<img src={user} alt="" className="h-4 w-5" />
+						<span>District</span>
+					</div>
+					<input
+						className="outline-none px-7 placeholder:text-black"
+						placeholder="Gujrat"
+					/>
+					<span className="px-7"></span>
+				</div>
+				<div className="h-10 mb-2 w-full bg-[#1C4481] text-white font-medium flex items-center justify-center rounded-full">
+					<span>Verify</span>
 				</div>
 			</div>
 		</div>

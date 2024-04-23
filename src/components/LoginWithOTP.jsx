@@ -19,9 +19,13 @@ function LoginWithOTP() {
 				</div>
 			</div>
 			<div className="border border-black rounded-md px-2 py-1 my-8 h-12 flex items-center">
-				<div className="flex items-center gap-2 text-[#1C4481]">
+				<div className="flex items-center gap-2 text-[#1C4481] w-full">
 					<img src={tablet} alt="" className="h-5 w-5" />
-					<span>Enter Mobile Number</span>
+					<input
+						type="number"
+						placeholder="Enter Mobile Number"
+						className="placeholder:text-black px-2 w-full outline-none no-spin"
+					/>
 				</div>
 			</div>
 			<button className="bg-[#1C4481] text-white w-full h-10 rounded-3xl">

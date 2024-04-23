@@ -13,3 +13,14 @@
 		scrollbar-width: none; /* Firefox */
 	}
 }
+
+@layer utilities {
+	.no-spin::-webkit-outer-spin-button,
+	.no-spin::-webkit-inner-spin-button {
+		-webkit-appearance: none;
+		margin: 0;
+	}
+	[type="number"].no-spin {
+		-moz-appearance: textfield;
+	}
+}
